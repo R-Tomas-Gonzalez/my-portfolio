@@ -25,7 +25,7 @@ export function About() {
       </CardHeader>
       <CardContent>
         <p>
-          I collaborate with the sharpest tech talent to bridge the gap between
+          Collaborating with the sharpest tech talent to bridge the gap between
           complex technology and effortless online experiences.
         </p>
       </CardContent>
