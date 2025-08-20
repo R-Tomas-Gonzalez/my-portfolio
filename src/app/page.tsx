@@ -31,7 +31,7 @@ export default function Home() {
             
             <p className="text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed max-w-2xl">
               I have more than 5 years of experience building scalable web applications, 
-              specifically in React, Node.js, Ruby on Rails, Angular, TypeScript, and JavaScript.
+              specifically in React, Angular, TypeScript, JavaScript, Node.js, and Ruby on Rails.
             </p>
           </div>
 
