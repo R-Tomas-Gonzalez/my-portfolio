@@ -2,7 +2,7 @@ import { About } from "@/components/cards/about";
 import { Experience } from "@/components/cards/experience";
 import { Contact } from "@/components/cards/contact";
 import { SectionNav } from "@/components/ui/section-nav";
-import { ArrowDown, FileText } from "lucide-react";
+import { FileText } from "lucide-react";
 
 export default function Home() {
   return (

@@ -30,10 +30,6 @@ export function SectionNav({ className }: SectionNavProps) {
 
       const scrollTop = rightSide.scrollTop;
       const rightSideRect = rightSide.getBoundingClientRect();
-      const introRect = introSection.getBoundingClientRect();
-      
-      // Calculate relative positions
-      const introOffset = introRect.top - rightSideRect.top + scrollTop;
       
       let experienceOffset = Infinity;
       if (experienceSection) {
