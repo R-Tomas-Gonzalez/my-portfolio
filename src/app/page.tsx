@@ -2,7 +2,7 @@ import { About } from "@/components/cards/about";
 import { Experience } from "@/components/cards/experience";
 import { Contact } from "@/components/cards/contact";
 import { SectionNav } from "@/components/ui/section-nav";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, FileText } from "lucide-react";
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             
             <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-4 lg:mb-6">
-              Full-Stack Software Engineer, based in Austin.
+              Full Stack Software Engineer, based in Austin.
             </h1>
             
             <p className="text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed max-w-2xl">
@@ -36,7 +36,17 @@ export default function Home() {
           </div>
 
           <div className="mb-12 lg:mb-19" id="experience">
-            <h1 className="mb-6 lg:mb-10 text-xl sm:text-2xl lg:text-3xl font-bold">Experience</h1>
+            <h1 className="mb-0 lg:mb-1 text-xl sm:text-2xl lg:text-3xl font-bold">Experience</h1>
+            <a
+              href="/Tomas_Gonzalez_Resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 transition-colors flex items-center gap-2 text-sm mb-6 lg:mb-10"
+              title="View Resume"
+            >
+              <FileText size={18} />
+              <span>View Full Resume</span>
+            </a>
             <Experience
               date="2024 – PRESENT"
               title="MetroStar - myUSCIS.gov"
