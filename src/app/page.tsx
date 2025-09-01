@@ -111,7 +111,7 @@ export default function Home() {
               date="2025-PRESENT"
               title="Soundcheck"
               role="Lead Frontend Engineer"
-              description="Facilitated software engineering workshops at Pepperdine, University of Wisconsin–Madison, and University of Las Vegas, training 100+ students in HTML, CSS, JavaScript, accessibility, Git, and backend basics with Node, Express, and MongoDB. Assessed advanced learners on OOP fundamentals through projects leveraging SQL and React."
+              description="As Frontend Lead on the Soundcheck platform, I managed developer priorities, aligned stakeholders on product direction, and introduced scalable architecture. Using Next.js, React, TypeScript, Tailwind, and shadcn/ui, I built complex features and reusable components while ensuring both team efficiency and product quality."
               badges={["React", "TypeScript", "JavaScript", "HTML", "CSS"]}
               link="https://soundchecklive.io/"
             />
