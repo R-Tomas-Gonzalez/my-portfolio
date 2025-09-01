@@ -36,12 +36,12 @@ export default function Home() {
           </div>
 
           <div className="mb-12 lg:mb-19" id="experience">
-            <h1 className="mb-0 lg:mb-1 text-xl sm:text-2xl lg:text-3xl font-bold">Experience</h1>
+            <h1 className="mb-0 lg:mb-2 text-xl sm:text-2xl lg:text-3xl font-bold">Experience</h1>
             <a
               href="/Tomas_Gonzalez_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-primary hover:text-primary/80 transition-colors flex items-center gap-2 text-sm mb-6 lg:mb-10"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background hover:bg-foreground/90 rounded-lg font-medium text-sm transition-colors mb-6 lg:mb-10 w-fit border border-border"
               title="View Resume"
             >
               <FileText size={18} />
